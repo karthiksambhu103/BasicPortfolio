@@ -6,6 +6,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import WbSunnyTwoToneIcon from '@mui/icons-material/WbSunnyTwoTone';
 import ArrowDownwardTwoToneIcon from '@mui/icons-material/ArrowDownwardTwoTone';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     const profilePhoto = require('../Assets/Spider-Man No Way Home 2021.png')
@@ -34,7 +35,8 @@ const Home = () => {
                     <h1 className="o">Hello, I'm <span>👋</span></h1>
                     <h1 className="lo"><mark>Software</mark> Developer</h1>
                 </div>
-                <a className="btn btn-white" href="/about"><p className="btn-text">Know More About Me</p></a>
+               
+                <Link className="btn btn-white" to="/about" ><p className="btn-text">Know More About Me</p></Link>
                 <div className='home-photo'>
                     <img className='profile-photo' src={profilePhoto} alt="Kartik Sambhu" />
                 </div>

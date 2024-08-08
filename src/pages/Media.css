@@ -181,7 +181,10 @@
     position: relative;
     top: -100px;
   }
-}
+  .btn-text {
+   
+    line-height: 20px;
+}}
 
 @media (max-width: 435px) {
 
