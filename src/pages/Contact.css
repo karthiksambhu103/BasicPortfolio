@@ -56,8 +56,7 @@
 
 .rak input {
     border-radius: 10px;
-    background: rgb(6, 75, 223);
-    border: none;
+    border: 1px black solid;
     width: 100%;
     height: 56px;
     color: var(--14, #FFF);
@@ -81,9 +80,8 @@
 textarea {
     width: 91%;
     border-radius: 10px;
-    background: rgb(7, 83, 247);
+    border: 1px black solid;
     height: 48px;
-    border: none;
     resize: none;
     padding: 16px 20px;
     color: var(--14, #FFF);
