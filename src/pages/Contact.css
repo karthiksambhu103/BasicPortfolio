@@ -1,0 +1,114 @@
+.ma {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(6, 75, 223);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    animation: hue 1s ;
+
+    
+}
+
+.io {
+    height: 78vh;
+    width: 90vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    animation: photo 700ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    
+}
+
+.det {
+    border: 1px black solid;
+    border-radius: 40px;
+    height: 73vh;
+    width: 57vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: rgb(101, 145, 240);
+    
+
+}
+
+.dam {
+    border: 1px black solid;
+    border-radius: 40px;
+    height: 73vh;
+    width: 27vw;
+    background-color: rgb(101, 145, 240);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rak {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    
+}
+
+.rak input {
+    border-radius: 10px;
+    background: rgb(6, 75, 223);
+    border: none;
+    width: 100%;
+    height: 56px;
+    color: var(--14, #FFF);
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    
+}
+
+.rak div {
+    width: 24vw;
+    
+}
+
+.det p{
+    font-weight: bold
+}
+
+textarea {
+    width: 91%;
+    border-radius: 10px;
+    background: rgb(7, 83, 247);
+    height: 48px;
+    border: none;
+    resize: none;
+    padding: 16px 20px;
+    color: var(--14, #FFF);
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.subm {
+
+    text-align: center;
+    color: var(--9, #460361);
+    font-size: 20px;
+    border: 2px solid #460361;
+    border-radius: 32px;
+    padding: 16px 20px;
+    width: 120px;
+    cursor: pointer;
+    font-weight: bolder;
+    
+}
+
+.dam div {
+    width: 24vw;
+  margin-top: 30px;
+}

@@ -1,0 +1,153 @@
+.main {
+    background-color: rgb(21, 1, 34);
+    border-bottom: 0.3px white solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* position: fixed;
+    z-index: 1; */
+}
+
+
+
+.smain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    width: 85vw;
+}
+
+.log {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: "DM Sans", Arial, Helvetica, sans-serif
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60vw;
+}
+
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    width: 45vw;
+    list-style: none;
+}
+
+li {
+    cursor: pointer;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+.ser {
+    top: 54px;
+    width: 12vw;
+    height: 10vh;
+    line-height: 3;
+    position: absolute;
+    z-index: 1;
+    display: none;
+    color: white;
+    list-style-type: none;
+    padding-left: 0%;
+    align-items: center;
+
+}
+
+.ser1 {
+    top: 0px;
+    left: 164px;
+    width: 12vw;
+    position: absolute;
+    z-index: 1;
+    display: none;
+    color: white;
+    list-style-type: none;
+    padding-left: 0%;
+
+}
+
+.ux {
+    text-align: center;
+    background-color: #3f4553;
+    border-bottom: 1px black solid;
+}
+
+.ui {
+    text-align: center;
+    background-color: #3f4553;
+    border-bottom: 1px black solid;
+}
+
+.ux:hover {
+    background: #c0e421;
+    color: #030814;
+}
+
+.ui:hover {
+    background: #c0e421;
+    color: #030814;
+}
+
+.tr:hover .ser {
+    display: block;
+    animation: rotateMenu 600ms ease-in-out forwards;
+    transform-origin: top center;
+}
+
+.tr .ser .ux:hover .ser1 {
+    display: block;
+    animation: rotateMenu 600ms ease-in-out forwards;
+    transform-origin: top center;
+}
+
+@keyframes rotateMenu {
+    0% {
+        transform: rotateX(-90deg);
+    }
+
+    70% {
+        transform: rotateX(20deg);
+    }
+
+    100% {
+        transform: rotateX(0deg);
+    }
+}
+
+.tr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tr:hover {
+    color: #c0e421;
+}
+
+.down {
+    border: 1px solid rgb(148, 9, 9);
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(148, 9, 9);
+}

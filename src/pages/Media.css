@@ -1,0 +1,199 @@
+@media (max-width: 955px) {
+  body {
+    background-color: lightgreen;
+  }
+
+  .list li {
+    display: none;
+  }
+
+  .home-text a {
+    display: flex;
+    position: relative;
+    left: -26px;
+    top: -35px;
+  }
+
+  .item a {
+    margin-left: 100px;
+  }
+
+}
+
+@media (max-width: 883px) {
+  .profile-photo {
+    width: 450px;
+    height: 357px;
+    position: relative;
+    top: -60px;
+  }
+
+  .lo {
+    font-size: 44px;
+  }
+
+  .o {
+    font-size: 30px;
+  }
+
+}
+
+@media (max-width: 718px) {
+  .ho {
+    display: none;
+
+  }
+
+  .home-text a {
+    display: flex;
+    position: relative;
+    left: -50px;
+    top: -74px;
+  }
+
+  .ka {
+    position: relative;
+    left: -49px;
+    top: -18px;
+  }
+
+  .home-container {
+    justify-content: space-around;
+  }
+
+  .about {
+    flex-direction: column-reverse;
+  }
+
+  .phot img{
+    height: 42vh;
+    width: 82vw;
+    position: relative;
+    top: 29px;
+  }
+  .tex {
+    width: 88vw;
+}
+.tex1 {
+  width: 88vw;
+  height: 48vh;
+}
+.s4 {
+  height: 59px;
+  width: 54vw;}
+
+}
+
+@media (max-width: 604px) {
+  .lo {
+    font-size: 35px;
+  }
+
+  .o {
+    font-size: 25px;
+  }
+
+  .home-text a {
+    display: flex;
+    position: relative;
+    left: -29px;
+    top: -70px;
+  }
+
+  .ka {
+    position: relative;
+    left: -49px;
+    top: -18px;
+  }
+
+  .profile-photo {
+    width: 383px;
+    height: 366px;
+    position: relative;
+    top: -70px;
+    left: -26px;
+  }
+
+
+  .io .dam {
+    display: none;
+  }
+
+  .io .det {
+    width: 82vw;}
+    .io form {
+      width: 82vw;}
+
+      .det textarea {
+        width: 80%;}
+
+        .det .rak input {
+          
+          height: 36px;}
+
+}
+
+@media (max-width: 520px) {
+  .profile-photo {
+    width: 335px;
+    height: 304px;
+    position: relative;
+    top: -92px;
+    left: -26px;
+  }
+
+}
+
+@media (max-width: 540px) {
+  .item a {
+    margin-left: 0px;
+  }
+
+  .down {
+    display: none;
+  }
+
+  .smain .item {
+    width: 25vw;
+  }
+
+}
+
+@media (max-width: 476px) {
+  .lo {
+    font-size: 32px;
+  }
+
+  .o {
+    font-size: 27px;
+  }
+
+  .profile-photo {
+    position: relative;
+    top: -100px;
+  }
+}
+
+@media (max-width: 445px) {
+  .profile-photo {
+    width: 280px;
+    height: 253px;
+    position: relative;
+    top: -100px;
+  }
+}
+
+@media (max-width: 435px) {
+
+  .lo {
+    font-size: 25px;
+  }
+
+  .o {
+    font-size: 23px;
+  }
+
+  .j li {
+    font-size: 14px;
+  }
+}

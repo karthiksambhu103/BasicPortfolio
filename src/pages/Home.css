@@ -1,0 +1,340 @@
+.home-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(30, 2, 49);
+    color: aliceblue;
+    /* top: 80px;
+    position: relative; */
+}
+
+.p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15vw;
+    height: 100vh;
+}
+
+.h {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 70vh;
+}
+
+
+
+.h a {
+    border: 1px white solid;
+    padding: 15px;
+    border-radius: 80px;
+    position: relative;
+    overflow: hidden;
+    transition: .5s;
+    z-index: 0;
+    text-decoration: none;
+}
+
+.h>a:hover {
+    transform: rotateY(360deg);
+}
+
+.h a:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
+    background: var(--13, linear-gradient(90deg, #FF7D61 0%, #FFDB59 100%));
+    z-index: -1;
+}
+
+.h a:hover:before {
+    top: 0;
+}
+
+.email {
+    color: rgb(7, 192, 238);
+}
+
+.git {
+    color: black;
+}
+
+.lik {
+    color: rgb(7, 20, 199);
+}
+
+.wt {
+    color: #00ff00;
+}
+
+
+
+
+.home-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    width: 65vw;
+}
+
+.home-text mark {
+
+    background-image: linear-gradient(45deg, #ae00ff, #ff0062);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: hue 3s infinite;
+
+}
+
+@keyframes hue {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    50% {
+        filter: hue-rotate(180deg);
+    }
+
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.o spam {
+    transform-origin: 70% 70%;
+    display: inline-block;
+    animation-name: wave-animation;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes wave-animation {
+    0% {
+        transform: rotate(0.0deg);
+    }
+
+    10% {
+        transform: rotate(14.0deg);
+    }
+
+    20% {
+        transform: rotate(-8.0deg);
+    }
+
+    30% {
+        transform: rotate(14.0deg);
+    }
+
+    40% {
+        transform: rotate(-4.0deg);
+    }
+
+    50% {
+        transform: rotate(10.0deg);
+    }
+
+    60% {
+        transform: rotate(0.0deg);
+    }
+
+    100% {
+        transform: rotate(0.0deg);
+    }
+
+}
+
+
+
+
+
+.ho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "DM Sans", sans-serif;
+    height: 100vh;
+    border: 1px solid rgb(243, 241, 241);
+    width: 23vw;
+
+}
+
+@keyframes azk {
+    from {
+        transform: translateX(40px);
+    }
+
+    to {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes photo {
+    from {
+        transform: translateY(70px);
+    }
+
+    to {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes heading {
+    from {
+        transform: translateY(-30px);
+    }
+
+    to {
+        transform: translateY(0px);
+    }
+}
+
+
+.y {
+    text-align: center;
+    height: 35vh;
+    display: flex;
+    display: flex;
+    align-items: center;
+    height: 30vh;
+    animation: azk 1200ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.r {
+    font-size: 50px;
+}
+
+
+.t {
+    border-top: 1px solid rgb(243, 241, 241);
+    border-bottom: 1px solid rgb(243, 241, 241);
+    line-height: 25px;
+    width: 23vw;
+    text-align: center;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    animation: azk 1200ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.t span {
+    font-weight: bold;
+}
+
+.m {
+    animation: lodu infinite 9s linear;
+}
+
+@keyframes lodu {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.l {
+    height: 25vh;
+    width: 23vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    animation: azk 1200ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.fc {
+    border: 1px white solid;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 60px;
+}
+
+.er {
+    animation: az 1500ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+@keyframes az {
+    50% {
+        transform: translateY(10px);
+    }
+}
+
+
+.btn-text {
+    font-family: Poppins, "sans-serif";
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: .2px;
+    line-height: 16px;
+    text-align: center;
+    
+}
+    
+.btn-white {
+    background: #fff;
+    color: #112d57;
+}
+.btn {
+    border-radius: 39px;
+    box-shadow: 0 4px 31px rgba(0, 0, 0, .15);
+    flex-direction: column;
+    height: 52px;
+    left: 0;
+    margin: 4px;
+    padding: 0 36px;
+    text-decoration: none;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+.btn:hover {
+    box-shadow: 1px 15px 32px rgba(233, 72, 72, 0.45);
+    transition: all .3s ease-in-out;
+}
+
+.home-text a{
+    display: none;
+}
+
+
+
+.profile-photo {
+    height: 378px;
+    width: 476px;
+    animation: photo 900ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.lo {
+    font-size: 60px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+
+}
+
+.o {
+    font-size: 40px;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    animation: heading 1200ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
