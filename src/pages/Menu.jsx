@@ -11,7 +11,7 @@ export default function Menu() {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
-        display: 'flex', flexDirection: 'column', width: '100vw', alignItems: 'center', justifyContent: 'center'
+        display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'
     };
 
     return (
